@@ -35,9 +35,6 @@ const Card = () => {
       <button className=" btn mx-auto w-fit  flex justify-center bg-red-500 hover: text-white border-2 border-red-500 hover:bg-transparent hover:text-red-500 text-xl hover:border-red-500 my-8">
         View Full Menu
       </button>
-      <button className=" btn mx-auto w-fit  flex justify-center bg-red-500 hover: text-white border-2 border-red-500 hover:bg-transparent hover:text-red-500 text-xl hover:border-red-500 my-8">
-        View Full Menu
-      </button>
     </div>
   );
 };
