@@ -13,7 +13,7 @@ const Card = () => {
       <div className="flex flex-wrap justify-center rounded-xl gap-10">
         {foods?.slice(0, 6).map((e, idx) => (
           <div
-            className="border-2 relative w-fit p-2 hover:bg-[#70191913] rounded-xl shadow-xl shadow-[#d19a03a8] "
+            className="border-2 relative w-fit p-2 hover:bg-[#70191915] rounded-xl shadow-xl shadow-[#d19a03a8] "
             key={idx}
           >
             <img
@@ -32,6 +32,9 @@ const Card = () => {
           </div>
         ))}
       </div>
+      <button className=" btn mx-auto w-fit  flex justify-center bg-red-500 hover: text-white border-2 border-red-500 hover:bg-transparent hover:text-red-500 text-xl hover:border-red-500 my-8">
+        View Full Menu
+      </button>
       <button className=" btn mx-auto w-fit  flex justify-center bg-red-500 hover: text-white border-2 border-red-500 hover:bg-transparent hover:text-red-500 text-xl hover:border-red-500 my-8">
         View Full Menu
       </button>
