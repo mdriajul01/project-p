@@ -20,6 +20,7 @@ const Banner = () => {
           reiciendis a voluptatum velit molestiae maxime in excepturi vero
           tempore dolor eveniet!
         </p>
+        <p className="font-semibold text-lg text-red-500">hello</p>
         <div className="flex gap-5 mt-5 justify-center">
           <button className=" btn bg-red-500 hover: text-white border-2 border-red-500 hover:bg-transparent hover:text-red-500 text-xl hover:border-red-500">
             Food Order Now
