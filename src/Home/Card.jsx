@@ -13,7 +13,7 @@ const Card = () => {
       <div className="flex flex-wrap justify-center rounded-xl gap-10">
         {foods?.slice(0, 6).map((e, idx) => (
           <div
-            className="border-2 relative w-fit p-2 hover:bg-[#70191915] rounded-xl shadow-xl shadow-[#d19a03a8] "
+            className=" border-2 relative w-fit p-2 hover:bg-[#70191915] rounded-xl shadow-xl hover:shadow-[#d19a03a8] hover:text-lg hover:border-x-slate-400 shadow-2px shadow-gray-200"
             key={idx}
           >
             <img
