@@ -1,5 +1,6 @@
 import React from "react";
 import banner from "../../public/image/bannar.jpg";
+import "./style.css";
 const Banner = () => {
   return (
     <div className="relative">
@@ -10,8 +11,8 @@ const Banner = () => {
           alt=""
         />
       </div>
-      <div className="absolute lg:top-1/3 md:top-1/3 top-5 left-10 text-white">
-        <h1 className="lg:text-4xl md:text-3xl text-xl font-bold my-2 text-center ml-20">
+      <div id='bannar' className="absolute lg:top-1/3 md:top-1/3 top-5 left-10 text-white">
+        <h1 className="lg:text-4xl md:text-3xl text-xl font-bold my-2 text-center ml-20  ">
           Welcome To our website{" "}
         </h1>
         <p className="lg:text-base md:text-base text-sm text-center w-2/1 ml-20 ">
@@ -20,7 +21,7 @@ const Banner = () => {
           reiciendis a voluptatum velit molestiae maxime in excepturi vero
           tempore dolor eveniet!
         </p>
-        
+
         <div className="flex gap-5 mt-5 justify-center">
           <button className=" btn bg-red-500 hover: text-white border-2 border-red-500 hover:bg-transparent hover:text-red-500 text-xl hover:border-red-500">
             Food Order Now

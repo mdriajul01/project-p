@@ -6,9 +6,9 @@ function About() {
     return (
       <div className="my-10 text-center">
         <div>
-          <h1 className="my-8 font-bold text-2xl text-center">About Us</h1>
+          <h1 className="my-8 font-bold text-4xl text-center">About Us</h1>
         </div>
-        <div className="font-serif text-lg">
+        <div className="font-serif text-lg my-6">
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius ipsum
             unde ipsa iste, enim nesciunt fugit totam dolorum maxime minima
